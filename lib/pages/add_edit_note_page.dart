@@ -106,13 +106,13 @@ class _AddEditPageState extends State<AddEditPage> {
                     ),
                     TextField(
                       style: const TextStyle(
-                        fontSize: 22,
+                        fontSize: 16,
                       ),
                       controller: descriptionController,
                       decoration: InputDecoration(
                         hintText: "Type something...",
                         hintStyle: TextStyle(
-                          fontSize: 22,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                           color: Colors.grey[600],
                         ),
